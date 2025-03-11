@@ -1,0 +1,52 @@
+{
+  "guests": [
+    "Alice",
+    "Bob",
+    "Charlie",
+    "Diana",
+    "Eve",
+    "Frank",
+    "Grace",
+    "Henry",
+    "Isabel",
+    "Jack",
+    "Karen",
+    "Liam",
+    "Mona",
+    "Nathan",
+    "Olivia",
+    "Paul",
+    "Quinn",
+    "Rachel",
+    "Steve",
+    "Tina"
+  ],
+  "affinities": {
+    "Alice": {"Bob": 10, "Tina": 8},
+    "Bob": {"Alice": 10, "Eve": 5},
+    "Charlie": {"Diana": 9, "Eve": 8},
+    "Diana": {"Charlie": 9, "Eve": 8},
+    "Eve": {"Charlie": 8, "Diana": 8, "Frank": 7},
+    "Frank": {"Grace": 8, "Eve": 7},
+    "Grace": {"Frank": 8, "Henry": 4},
+    "Henry": {"Isabel": 6, "Jack": 4},
+    "Isabel": {"Henry": 6, "Jack": 7},
+    "Jack": {"Isabel": 7, "Karen": -8},
+    "Karen": {"Jack": -8, "Liam": 8},
+    "Liam": {"Karen": 8, "Mona": 9},
+    "Mona": {"Liam": 9, "Nathan": 5},
+    "Nathan": {"Mona": 5, "Olivia": 9},
+    "Olivia": {"Nathan": 9, "Paul": 4},
+    "Paul": {"Olivia": 4, "Quinn": 7},
+    "Quinn": {"Paul": 7, "Rachel": 5},
+    "Rachel": {"Quinn": 5, "Steve": 6},
+    "Steve": {"Rachel": 6, "Tina": 8},
+    "Tina": {"Steve": 8, "Alice": 8}
+  },
+  "tables": {
+    "Atlantic": {"capacity": 5},
+    "Pacific": {"capacity": 5},
+    "Arctic": {"capacity": 5},
+    "Antarctic": {"capacity": 5}
+  }
+}
